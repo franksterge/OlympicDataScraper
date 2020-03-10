@@ -2,9 +2,6 @@ import requests as r
 import csv
 from bs4 import BeautifulSoup as bs
 
-# cnxn = d.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=IS-HAY04.ischool.uw.edu;DATABASE=fangwg_BookDB;UID=info430;PWD=GoHuskies!;autocommit=True')
-# cursor = cnxn.cursor()
-
 domain = "http://www.espn.com/olympics/summer08/medals"
 quotes = r.get(domain)
 
